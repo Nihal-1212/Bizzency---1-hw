@@ -1,0 +1,98 @@
+/*------------------ common css start ----------------*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+   /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.container{
+        width: 1170px;
+        margin: auto;   
+}
+.row{
+        display: flex;
+        flex-wrap: wrap;
+}
+/*------------------ common css end ----------------*/
+/*------------------ head start -------------------*/
+
+header .top_bar{
+        background-color: #0f2f44;
+        padding: 20px 0;
+}
+header .top_left,
+header .top_right{
+            width: 50%;
+            font-size: 16px;
+}
+header .top_right{
+            text-align: right;
+}
+header .container p{
+        color: #fefefe;
+}
+header nav .row{
+    align-items: center;
+}
+header nav .container{
+    align-items: center;
+}
+header nav .logo img{
+    display: block;
+}
+header nav .logo{
+    width: 20%;
+}
+header nav .manu{
+    width: 80%;
+}
+header nav .manu ul{
+    justify-content: flex-end;
+}
+header nav .manu ul li a{
+    color: #222222;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 40px 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .6s;
+}
+header nav .manu ul li:hover > a{
+        color: #ffc712;
+        background-color: #fff9e6;       
+}
+header nav .manu ul li ul{
+            position: absolute;
+            display: none;            
+}
+header nav .manu ul li:hover > ul{
+            display: block;           
+}
+header nav .manu ul li > i{
+            width: 30px;
+            height: 30px;
+            color: #999999;
+            border: 2px solid #999999;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            margin: 0 10px;
+            cursor: pointer;
+}
+/*----------------- head end ------------------*/
